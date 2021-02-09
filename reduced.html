@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Siyaaq Research & Consultancy - Comming Soon</title>
-  <meta name="description" content="Siyaaq Research & Consultancy - Comming Soon">
+  <title>Hojabrian.com</title>
+  <meta name="description" content="Hojabrian.com">
 
   <link rel="stylesheet" href="css/styles.css?v=1.0">
 
@@ -87,12 +87,12 @@
         textureCoord.x += (
           sin(textureCoord.x * 10.0 + ((uTime * (PI / 3.0)) * 0.031))
           + sin(textureCoord.y * 10.0 + ((uTime * (PI / 2.489)) * 0.017))
-          ) * 0.0075 * 0.35;
+          ) * 0.0075 * 0.05;
 
         textureCoord.y += (
           sin(textureCoord.y * 20.0 + ((uTime * (PI / 2.023)) * 0.023))
           + sin(textureCoord.x * 20.0 + ((uTime * (PI / 3.1254)) * 0.037))
-          ) * 0.0125 * 0.05;
+          ) * 0.0125 * 0.01;
 
         gl_FragColor = texture2D(uSampler0, textureCoord);
       }
