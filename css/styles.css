@@ -27,7 +27,7 @@ body {
 .plane {
   /* define the size of your plane */
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   position: relative;
   margin: 0 auto;
 
