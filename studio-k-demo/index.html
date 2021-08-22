@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Studio Khemeia'e</title>
+<meta name="description" content="natural dye kitchen | darkroom">
+
+<link rel="apple-touch-icon" sizes="57x57" href="fav/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="fav/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="fav/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="fav/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="fav/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="fav/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="fav/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="fav/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="fav/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="fav/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="fav/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 17px;
+  background: rgba(216, 210, 206);
+}
+
+#myVideo {
+  /*position: fixed;*/
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+.myBtns {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px; 
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.myBtns:hover {
+  background: #ddd;
+  color: black;
+}
+
+#instaBtn {
+
+}
+#mailBtn{
+
+}
+#phoneBtn{
+
+}
+
+#cs {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+#logo {
+  width: 40%;
+  margin-right: 30%;
+  margin-left: 30%;
+  margin-bottom: 400px;
+}
+
+#map {
+width: 100%;
+min-height: 300px;
+}
+
+</style>
+</head>
+<body>
+
+<video autoplay muted id="myVideo">
+  <source src="coming soon.mp4" type="video/mp4">
+  Coming Soon
+</video>
+
+
+<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d591.4358585633494!2d47.97545969978629!3d29.36986039014456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6492c0a5bba6b20!2sSouk%20al%20wataniya!5e0!3m2!1sen!2skw!4v1629645430897!5m2!1sen!2skw" w style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<img id="cs" src="coming soon.png"/>
+
+
+<img id="logo" src="logo.png"/>
+
+
+<div class="content">
+  <h1>Studio Khemeia'e</h1>
+  <p>natural dye kitchen | darkroom </p>
+  <p>
+      422 | 4th Floor <br>
+      Al Wataniya Complex <br>
+      Qiblah, Kuwait
+</p>
+
+<p>
+      +965-94442406
+</p>
+  <button id="instaBtn" onclick="location.href='https://www.instagram.com/studio.khemiae/'" class="myBtns" >
+    @studio.khemiae
+  </button>
+    <button id="mailBtn" class="myBtns" >
+    info@khemiae.com
+  </button>
+<!-- <button id="myBtn" class="myBtns" onclick="myFunction()">
+    Pause
+  </button> -->
+</div>
+
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+// window.onload = function () {
+//   window.onscroll = function () {
+//       if (body.scrollTop < 10) {
+//         // if (video.ended) {
+//           video.currentTime = '0';
+//           video.play();
+//         // }
+//   };
+// };
+
+  var video = document.getElementById("myVideo");
+
+while(1){
+  document.body.animate({ scrollTop: video.offset().top }, 4000);
+  video.onended = function() {
+    document.getElementsByTagName('body')[0].animate({ scrollTop: $(document).height() }, 4000);
+    setTimeout(function() {
+        $("html, body").animate({ scrollTop: $(0).height() }, 4000);
+    },4000);
+  };
+}
+
+// function myFunction() {
+//   if (video.paused) {
+//     video.play();
+//     btn.innerHTML = "Pause";
+//   } else {
+//     video.pause();
+//     btn.innerHTML = "Play";
+//   }
+//   if (video.ended) {
+//     btn.innerHTML = "Pause";
+//   }
+// }
+</script>
+
+
+</body>
+</html>
