@@ -34,6 +34,7 @@ body {
   font-family: Arial;
   font-size: 17px;
   background: rgba(216, 210, 206);
+    text-shadow: 2px 2px 4px #000000;
 }
 
 #myVideo {
@@ -97,9 +98,14 @@ width: 100%;
 min-height: 300px;
 }
 
+.goodLink {
+  text-decoration: none;
+  color: white
+}
+
 </style>
 </head>
-<body>
+<body>  
 
 <video autoplay muted id="myVideo">
   <source src="coming soon.mp4" type="video/mp4">
@@ -124,58 +130,18 @@ min-height: 300px;
 </p>
 
 <p>
-      +965-94442406
+    <a class="goodLink" href="tel:+965-94442406">+965-94442406</a>
 </p>
   <button id="instaBtn" onclick="location.href='https://www.instagram.com/studio.khemiae/'" class="myBtns" >
     @studio.khemiae
   </button>
-    <button id="mailBtn" class="myBtns" >
+    <button id="mailBtn" onclick="location.href='mailto:info@khemiae.com'" class="myBtns" >
     info@khemiae.com
   </button>
 <!-- <button id="myBtn" class="myBtns" onclick="myFunction()">
     Pause
   </button> -->
 </div>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-// window.onload = function () {
-//   window.onscroll = function () {
-//       if (body.scrollTop < 10) {
-//         // if (video.ended) {
-//           video.currentTime = '0';
-//           video.play();
-//         // }
-//   };
-// };
-
-  var video = document.getElementById("myVideo");
-
-while(1){
-  document.body.animate({ scrollTop: video.offset().top }, 4000);
-  video.onended = function() {
-    document.getElementsByTagName('body')[0].animate({ scrollTop: $(document).height() }, 4000);
-    setTimeout(function() {
-        $("html, body").animate({ scrollTop: $(0).height() }, 4000);
-    },4000);
-  };
-}
-
-// function myFunction() {
-//   if (video.paused) {
-//     video.play();
-//     btn.innerHTML = "Pause";
-//   } else {
-//     video.pause();
-//     btn.innerHTML = "Play";
-//   }
-//   if (video.ended) {
-//     btn.innerHTML = "Pause";
-//   }
-// }
-</script>
 
 
 </body>
