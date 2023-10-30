@@ -15,25 +15,31 @@
   <link href="assets/fontawesome/css/solid.css" rel="stylesheet">
   <link href="assets/fontawesome/css/all.css" rel="stylesheet">
 
-
 </head>
 
 <body>
 
-    <!-- Navigation Section -->
-    <div class="container-fluid px-5">
-        <div class="row my-4">
-            <div class="col-6">
-                <img src="img/proem_logo.png" alt="Proem Logo" class="img-fluid logo">
-            </div>
-            <div class="col-6 text-right menu">
-                <p>PROJECTS</p>
-                <p>PUBLICATIONS</p>
-                <p>PRACTICE</p>
-            </div>
-        </div>
-    </div>
+<div id="navigation"></div>
+<script>
+    document.getElementById('navigation').innerHTML='<object type="text/html" data="navigation.html" ></object>';
+</script>
 
+<script>
+  // Get the template element
+  var template = document.querySelector('#navigation-template');
+  // Get the content of the template
+  var content = template.content;
+  // Get the imported document
+  var navigation = document.querySelector('link[rel="import"]').import;
+  // Get the element from the imported document
+  var navigationElement = navigation.querySelector('#navigation');
+  // Clone the element
+  var clone = document.importNode(navigationElement, true);
+  // Append the clone to the content
+  content.querySelector('#navigation-container').appendChild(clone);
+  // Insert the content into the document
+  document.body.insertBefore(content, document.body.firstChild);
+</script>
 
 <div class="project-layout-100">
     <!-- Project Page Layout (work.html)-->
