@@ -1,108 +1,153 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>Hojabrian.com</title>
-  <meta name="description" content="hojabrian.com">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Shahin Hojabrian - Professional Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Custom CSS -->
 </head>
-
 <body>
-  
-  <div class="container">
-    <a class="contact" href="mailto:shahin@hojabrian.com">
-    <div id="canvas" class="plane">
-      <img src="img/hojabrian.jpg" alt="Hojabrian">
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">Shahin Hojabrian</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/hojabrian/" target="_blank">LinkedIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.instagram.com/shaa_in/" target="_blank">Instagram</a>
+            </li>
+        </ul>
     </div>
-    </a>
-  </div>
+</nav>
 
 
-  <!-- div used to create our plane -->
+<div class="container starter-template">
+
+    <h2>Professional Summary</h2>
+    <p>
+        Hello! I'm Shahin, a business consultant and developer with a knack for blending technical innovation with practical business solutions. With over 15 years of diverse experience, I've had the privilege of wearing many hats, each one offering a unique perspective and learning opportunities.
+    </p>
+    <p>
+        My journey has been all about fostering growth—whether it's helping startups flourish or aiding established firms in streamlining their operations. It's the continuous process of moving forward and developing alongside inspiring individuals and teams that truly fuels my passion.
+    </p>
+    <p>
+
+    </p>
+    <p>
+        
+    </p>
 
 
+<hr/>
+    <h2>Get in Touch</h2>
+    <p class="lead">Let's explore, collaborate, and innovate.</p>
 
-  <script src="js/curtain.js"></script>
+    <p>Email: <a href="mailto:shahin@hojabrian.com">shahin@hojabrian.com</a></p>
+    <p>Phone: +965-55651123</p>
 
-    <script src="https://www.curtainsjs.com/build/curtains.min.js" type="text/javascript"></script>
-        <script id="plane-vs" type="x-shader/x-vertex">
-      #ifdef GL_ES
-      precision mediump float;
-      #endif
+<hr/>
 
-      // those are the mandatory attributes that the lib sets
-      attribute vec3 aVertexPosition;
-      attribute vec2 aTextureCoord;
+    <h2>Services Offered</h2>
 
-      // those are mandatory uniforms that the lib sets and that contain our model view and projection matrix
-      uniform mat4 uMVMatrix;
-      uniform mat4 uPMatrix;
-          
-      // our texture matrix uniform (this is the lib default name, but it could be changed)
-      uniform mat4 uTextureMatrix0;
+    <div class="card-layout-100">
+        <!-- card Page Layout (work.html)-->
+        <div class="container-fluid px-5 card-layout ">
+            <div class="row mx-5">
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card1"></div>
+                    <strong>Business Development & Consultation</strong>
+                </div>
 
-      // if you want to pass your vertex and texture coords to the fragment shader
-      varying vec3 vVertexPosition;
-      varying vec2 vTextureCoord;
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card2"></div>
+                    <strong>Technical Advisory and Solution Implementation</strong>
+                </div>
 
-      void main() {
-        vec3 vertexPosition = aVertexPosition;
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card3"></div>
+                    <strong>Project Coordination and Management</strong>
+                </div>
 
-        gl_Position = uPMatrix * uMVMatrix * vec4(vertexPosition, 1.0);
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card4"></div>
+                    <strong>Full-stack Development</strong>
+                </div>
 
-        // set the varyings
-        // thanks to the texture matrix we will be able to calculate accurate texture coords
-        // so that our texture will always fit our plane without being distorted
-        vTextureCoord = (uTextureMatrix0 * vec4(aTextureCoord, 0.0, 0.5)).xy;
-        vVertexPosition = vertexPosition;
-      }
-        </script>
-        <script id="plane-fs" type="x-shader/x-fragment">
-      #ifdef GL_ES
-      precision mediump float;
-      #endif
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card5"></div>
+                    <strong>3D Modeling and Architectural Design</strong>
+                </div>
 
-      // get our varyings
-      varying vec3 vVertexPosition;
-      varying vec2 vTextureCoord;
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card6"></div>
+                    <strong>Research and Data Analytics</strong>
+                </div>
 
-      // the uniform we declared inside our javascript
-      uniform float uTime;
+            </div>
+        </div>
+    </div>
 
-      // our texture sampler (default name, to use a different name please refer to the documentation)
-      uniform sampler2D uSampler0;
+<hr/>
 
-      void main() {
-        // get our texture coords
-        vec2 textureCoord = vTextureCoord;
+    <h2>Professional Engagements</h2>
 
-        // displace our pixels along both axis based on our time uniform and texture UVs
-        // this will create a kind of water surface effect
-        // try to comment a line or change the constants to see how it changes the effect
-        // reminder : textures coords are ranging from 0.0 to 1.0 on both axis
-        const float PI = 3.141592;
+    <div class="card-layout-100">
+        <!-- card Page Layout (work.html)-->
+        <div class="container-fluid px-5 card-layout ">
+            <div class="row mx-5">
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card7"></div>
+                    <strong>Chief Technology Officer</strong> at <br/><a href="https://alsalwakw.com/" target="_blank">Al-Salwa International Company</a>
+                </div>
 
-        textureCoord.x += (
-          sin(textureCoord.x * 10.0 + ((uTime * (PI / 3.0)) * 0.031))
-          + sin(textureCoord.y * 10.0 + ((uTime * (PI / 2.489)) * 0.017))
-          ) * 0.0075 * 0.05;
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card8"></div>
+                    <strong>Co-Founder</strong> at <br/><a href="https://deqa.me" target="_blank">Deqa Medical Scrubs</a>
+                </div>
 
-        textureCoord.y += (
-          sin(textureCoord.y * 20.0 + ((uTime * (PI / 2.023)) * 0.023))
-          + sin(textureCoord.x * 20.0 + ((uTime * (PI / 3.1254)) * 0.037))
-          ) * 0.0125 * 0.05;
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card9"></div>
+                    <strong>Co-Founder</strong> at <br/><a href="https://maktaba.me/" target="_blank">Maktaba Concept Store</a>
+                </div>
 
-        gl_FragColor = texture2D(uSampler0, textureCoord);
-      }
-        </script>
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card10"></div>
+                    <strong>Business Developer</strong> at <br/><a href="https://hatch.ir/" target="_blank">Hatch Studio</a>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card11"></div>
+                    <strong>Business Developer</strong> at <br/><a href="https://boushia.com/" target="_blank">Boushia Bronzeya Jewellery</a>
+                </div>
 
 
+            </div>
+        </div>
+    </div>    
 
-    <script src="https://www.curtainsjs.com/build/curtains.min.js" type="text/javascript"></script>
 
+<hr/>
+
+<p>
+            I've seen fresh ideas starting from a simple chat, turning into business opportunitise and impactful projects.  I believe in the power of collaboration and am always open to discussing new projects or ideas. Feel free to reach out via email or phone, or connect with me on LinkedIn and Instagram.
+<p/>
+    <p class="lead">I'd be delighted to hear from you. Let's create something impactful together!</p>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
