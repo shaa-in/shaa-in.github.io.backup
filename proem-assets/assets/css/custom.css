@@ -107,7 +107,7 @@ body {
 /* Header Section */
 
 .logo {
-    max-width: 400;  /* Adjust as needed based on the actual logo dimensions */
+    max-width: 350px;  /* Adjust as needed based on the actual logo dimensions */
     height: auto;
     padding-top: 15px;
 }
@@ -115,7 +115,7 @@ body {
 /* Mobile Size */
 @media (max-width: 768px) {
     .logo {
-        max-width: 75px;
+        max-width: 210px;
     }
 }
 
