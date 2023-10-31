@@ -1,8 +1,7 @@
-Thessaloniki International Fair
 
-Urban planning, Landscaping and Architecture
+**Urban planning, Landscaping and Architecture**
 
-Competition Entry, runner up 2021
+**Competition Entry**
 
 Reviving Thessaloniki's Heart: Our proposal aims to breathe new life into the Thessaloniki International Fair (T.I.F.), blending history with innovation.
 
