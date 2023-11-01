@@ -46,11 +46,13 @@ h2 {
     margin-bottom: 40px;
     margin-right: auto;
     margin-left: auto;
+
+    
 }
 
 .card-layout-100 {
 /*    background-color: rgb(242, 243, 239);  /* Gray color */*/
-    padding: 20px 0;  /* Adding some vertical padding for spacing. Adjust as necessary. */
+/*    padding: 20px 0;  /* Adding some vertical padding for spacing. Adjust as necessary. */*/
 }
 
 /* Replace with appropriate image paths */
