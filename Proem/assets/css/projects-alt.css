@@ -45,6 +45,7 @@
 	.project1, .project3, .project5 , .project7, .project9 {   
 		margin-left: 0px !important;
 		margin-right: 18% !important;
+
 	}
 
 
@@ -57,7 +58,7 @@
 		
 		margin-top: 10%;
 		margin-bottom: 10%;
-
+		max-height: 200px;
 	}
 
 }
@@ -70,6 +71,7 @@
 
 		margin-left: 0px !important;
 		margin-right: 18% !important;
+		align-self: left !important;
 	}
 
 
@@ -90,6 +92,7 @@
 		
 		margin-top: 10%;
 		margin-bottom: 10%;
+		max-height: 200px;
 
 	}
 }
@@ -100,6 +103,7 @@
 		
 		margin-top: 5%;
 		margin-bottom: 5%;
+
 
 	}
 }
