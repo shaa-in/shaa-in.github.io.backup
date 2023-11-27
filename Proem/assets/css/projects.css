@@ -1,0 +1,37 @@
+/* Replace with appropriate image paths */
+.project1 {    background-image: url('../../works/one/one.jpg');    }
+.project1:hover {    background-image: url('../../works/one/one-hover.jpg');    }
+
+.project2 {    background-image: url('../../works/two/two.jpg');    }
+.project2:hover {    background-image: url('../../works/two/two-hover.jpg');    }
+
+.project3 {    background-image: url('../../works/three/three.jpg');    }
+.project3:hover {    background-image: url('../../works/three/three-hover.jpg');    }
+
+.project4 {    background-image: url('../../works/four/four.jpg');    }
+.project4:hover {    background-image: url('../../works/four/four-hover.jpg');    }
+
+.project5 {    background-image: url('../../works/five/five.jpg');    }
+.project5:hover {    background-image: url('../../works/five/five-hover.jpg');    }
+
+.project6 {    background-image: url('../../works/six/six.jpg');    }
+.project6:hover {    background-image: url('../../works/six/six-hover.jpg');    }
+
+.project7 {    background-image: url('../../works/seven/seven.jpg');    }
+.project7:hover {    background-image: url('../../works/seven/seven-hover.jpg');    }
+
+.project8 {    background-image: url('../../works/eight/eight.jpg');    }
+.project8:hover {    background-image: url('../../works/eight/eight-hover.jpg');    }
+
+.project9 {    background-image: url('../../works/nine/nine.jpg');    }
+.project9:hover {    background-image: url('../../works/nine/nine-hover.jpg');    }
+
+.project10 {    background-image: url('../../works/ten/ten.jpg');    }
+.project10:hover {    background-image: url('../../works/ten/ten-hover.jpg');    }
+
+.project11 {    background-image: url('../../works/eleven/eleven.jpg');    }
+.project11:hover {    background-image: url('../../works/eleven/eleven-hover.jpg');    }
+
+.project12 {    background-image: url('../../works/twelve/twelve.jpg');    }
+.project12:hover {    background-image: url('../../works/twelve/twelve-hover.jpg');    }
+/* Header Section */

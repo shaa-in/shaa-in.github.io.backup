@@ -8,6 +8,7 @@
     <title>Proem Architectural Firm</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/projects-alt.css">
 
   <!-- our project just needs Font Awesome Solid + Brands -->
   <link href="assets/fontawesome/css/fontawesome.css" rel="stylesheet">
@@ -19,7 +20,24 @@
 
 <body>
 
-<div id="navigation"></div>
+<!-- Navigation Section - starts-->
+    <div id="navigation-content">
+        <div  class="container-fluid px-5">
+            <div class="row my-5 mx-5">
+                <div class="col-6">
+                    <img src="img/proem_logo.png" alt="Proem Logo" class="img-fluid logo">
+                </div>
+                <div class="col-6 text-right menu">
+                    <p>PROJECTS</p>
+                    <p>PUBLICATIONS</p>
+                    <p>PRACTICE</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Navigation Section - ends-->
+
+<!-- <div id="navigation"></div>
 <script>
     fetch('navigation.html')
     .then(response => response.text())
@@ -29,11 +47,12 @@
         const navContent = doc.querySelector("#navigation-content").innerHTML;
         document.getElementById('navigation').innerHTML = navContent;
     });
-</script>
+</script> -->
+
 <div class="project-layout-100">
     <!-- Project Page Layout (work.html)-->
     <div class="container-fluid px-5 py-5 project-layout ">
-        <div class="row my-5 mx-5">
+        <div class="row mx-5">
             <div class="col-12 col-md-6 col-lg-4 "><div class="project-image project1"></div></div>
             <div class="col-12 col-md-6 col-lg-4 "><div class="project-image project2"></div> </div>
             <div class="col-12 col-md-6 col-lg-4 "><div class="project-image project3"></div> </div>
