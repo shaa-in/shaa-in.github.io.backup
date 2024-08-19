@@ -1,7 +1,8 @@
 
 
 /* Body Section */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap');*/
+/* loaded on the page itself */
 
 .noto-kufi-arabic {
   font-family: "Noto Kufi Arabic", sans-serif;
