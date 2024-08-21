@@ -1,0 +1,77 @@
+
+.slider-2-1 { width: 569px; }
+.slider-2-2 { width: 460px; }
+.slider-2-3 { width: 354px; }
+.slider-2-4 { width: 172px; }
+.slider-2-5 { width: 124px; }
+
+    .video-responsive {
+        overflow: hidden;
+        padding-top: 56.25%;
+        position: relative;
+        height: 0;
+    }
+    .video-responsive iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+
+.noto-kufi-arabic-one {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  color: green;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: .7em;
+}
+
+.bolder-years {
+	font-size: 1.6em;
+	color: black;
+}
+
+.tajawal-extralight {
+  font-family: "Tajawal", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.tajawal-light {
+  font-family: "Tajawal", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.tajawal-regular {
+  font-family: "Tajawal", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tajawal-medium {
+  font-family: "Tajawal", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.tajawal-bold {
+  font-family: "Tajawal", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tajawal-extrabold {
+  font-family: "Tajawal", system-ui;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.tajawal-black {
+  font-family: "Tajawal", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
