@@ -45,6 +45,12 @@ keep_files:
   - css/plugins/odometer-theme-default.min.css
   - css/plugins/fancybox.min.css
   - css/plugins/magnific-pupup.css
+  - js/vendor/modernizr-3.11.7.min.js
+  - images/footer/footer-two-bg.png
+  - css/vendor/bootstrap.min.css
+  - js/vendor/jquery-3.6.0.min.js
+  - js/vendor/jquery-migrate-3.3.2.min.js
+  - js/vendor/bootstrap.min.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.
