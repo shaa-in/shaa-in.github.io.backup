@@ -69,11 +69,12 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  x86_64-darwin-20
   x86_64-darwin-21
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
-  jekyll (~> 4.3.2)
+  jekyll (~> 4.2)
   jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo (>= 1, < 3)
