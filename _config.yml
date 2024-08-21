@@ -34,23 +34,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
-keep_files:
+exclude:
+  - js/
   - js/vendor
   - js/plugins
-  - js/main.js
-  - js/pages/home.js
-  - css/plugins/font-awesome.min.css
-  - css/plugins/swiper-bundle.min.css
-  - css/plugins/animate.min.css
-  - css/plugins/odometer-theme-default.min.css
-  - css/plugins/fancybox.min.css
-  - css/plugins/magnific-pupup.css
-  - js/vendor/modernizr-3.11.7.min.js
-  - images/footer/footer-two-bg.png
-  - css/vendor/bootstrap.min.css
-  - js/vendor/jquery-3.6.0.min.js
-  - js/vendor/jquery-migrate-3.3.2.min.js
-  - js/vendor/bootstrap.min.js
+  - css/
+  - css/vendor/
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
