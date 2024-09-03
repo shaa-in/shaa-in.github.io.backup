@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>DEQA STUDIO </title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+
+</style>
+
+    <!-- Custom CSS -->
+</head>
+<body class=" noto-kufi-arabic ">
+
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand " href="#">دقـ4</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <!-- <a class="nav-link" href="https://www.linkedin.com/in/hojabrian/" target="_blank">LinkedIn</a> -->
+            </li>
+            <li class="nav-item">
+                <!-- <a class="nav-link" href="https://www.instagram.com/shaa_in/" target="_blank">Instagram</a> -->
+            </li>
+        </ul>
+    </div>
+</nav>
+
+
+<div class="container starter-template ">
+
+    <h1 style="font-size: 7em ;">دقـ4</h1>
+    <h2>
+        DEQA STUDIO
+    </h2>
+    <p>
+        
+    </p>
+    <p>
+
+    </p>
+    <p>
+        
+    </p>
+
+
+<hr/>
+    <h2></h2>
+    <p class="lead">Get in Touch</p>
+
+    <p>Email: <a href="mailto:info@deq4.com">info@deq4.com</a></p>
+    <p>Phone: +965-55651123</p>
+
+<hr/>
+
+    <h2>Services</h2>
+
+    <div class="card-layout-100">
+        <!-- card Page Layout (work.html)-->
+        <div class="container-fluid card-layout ">
+            <div class="row mx-lg-5 mx-md-3 mx-1">
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card1"></div>
+                    <strong>Business Development & Consultation</strong>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card2"></div>
+                    <strong>Technical Advisory and Solution Implementation</strong>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card3"></div>
+                    <strong>Project Coordination and Management</strong>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card4"></div>
+                    <strong>Full-stack Development</strong>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card5"></div>
+                    <strong>3D Modeling / Architectural Design</strong>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-4 top-margin">
+                    <div class="card-image card6"></div>
+                    <strong>Research and Data Analysis</strong>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<hr/>
+
+Precision is key to a successful development
+
+<hr/>
+
+<p>
+
+<p/>
+    <p class="lead"></p>
+
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+
